@@ -4,8 +4,8 @@
     font-family:'NanumGothic';
 	font-style:normal;
 	font-weight:normal;
-    src: url('../font/NanumGothic.eot') format('embedded-opentype'),  /* IE 9 */
-    src: local(※),url('../font/NanumGothic.ttf') format('truetype');
+    src: url('../../font/NanumGothic.eot') format('embedded-opentype'),  /* IE 9 */
+    src: local(※),url('../../font/NanumGothic.ttf') format('truetype');
 }
 body {font-family: 'NanumGothic','나눔고딕',"Malgun Gothic","맑은 고딕","돋움","Dotum","굴림","Gulim","serif",sans-serif;color:#333333;}
 img {border:none; vertical-align:middle;}
@@ -23,7 +23,7 @@ li {list-style:none;}
 .bt_1px {border-top:1px solid #b9b9bb;}
 .bb_1px {border-bottom:1px solid #b9b9bb;}
 
-.line {width:1117px;height:5px; background:url("/images/line.png");margin:50px auto; border:none;}
+.line {width:1117px;height:5px; background:url("../../img/pc/main/line.png");margin:50px auto; border:none;}
 
 #wrap {width:1150px;margin:0 auto;overflow:hidden;}
 
@@ -75,23 +75,23 @@ li {list-style:none;}
 
 #content01 .c01_bot {width:1118px;margin:0 auto;}
 #content01 .c01_bot li {width:554px;height:283px;float:left;margin-top:10px;}
-#content01 .c01_bot .c01_bot01 {background:url("/images/con05.png") no-repeat;}
-#content01 .c01_bot .c01_bot02 {background:url("/images/con06.png") no-repeat;}
+#content01 .c01_bot .c01_bot01 {background:url("../../img/pc/main/con05.png") no-repeat;}
+#content01 .c01_bot .c01_bot02 {background:url("../../img/pc/main/con06.png") no-repeat;}
 
 #content02 {width:100%; height:100%; overflow:hidden;}
 #content02 .c02 {width:1118px;margin:0 auto;}
-#content02 .c02 .c02_01 {width:554px;height:387px;background:url("/images/con07.png") no-repeat;float:left;}
-#content02 .c02 .c02_02 {width:554px;height:195px;background:url("/images/con08.png") no-repeat;float:left;border-bottom:1px solid #ccc;}
-#content02 .c02 .c02_03 {width:554px;height:180px;background:url("/images/con09.png") no-repeat;float:left;}
+#content02 .c02 .c02_01 {width:554px;height:387px;background:url("../../img/pc/main/con07.png") no-repeat;float:left;}
+#content02 .c02 .c02_02 {width:554px;height:195px;background:url("../../img/pc/main/con08.png") no-repeat;float:left;border-bottom:1px solid #ccc;}
+#content02 .c02 .c02_03 {width:554px;height:180px;background:url("../../img/pc/main/con09.png") no-repeat;float:left;}
 
 #content03 {width:100%; height:100%; overflow:hidden;}
 #content03 .c03 {width:1118px;margin:0 auto;}
-#content03 .c03 .c03_01 {width:362px;height:294px;background:url("/images/con10.png") no-repeat;float:left;}
-#content03 .c03 .c03_01:hover {background:url("/images/con10_o.png") no-repeat;}
-#content03 .c03 .c03_02 {width:362px;height:294px;background:url("/images/con11.png") no-repeat;float:left;}
-#content03 .c03 .c03_02:hover {background:url("/images/con11_o.png") no-repeat;}
-#content03 .c03 .c03_03 {width:362px;height:294px;background:url("/images/con12.png") no-repeat;float:left;}
-#content03 .c03 .c03_03:hover {background:url("/images/con12_o.png") no-repeat;}
+#content03 .c03 .c03_01 {width:362px;height:294px;background:url("../../img/pc/main/con10.png") no-repeat;float:left;}
+#content03 .c03 .c03_01:hover {background:url("../../img/pc/main/con10_o.png") no-repeat;}
+#content03 .c03 .c03_02 {width:362px;height:294px;background:url("../../img/pc/main/con11.png") no-repeat;float:left;}
+#content03 .c03 .c03_02:hover {background:url("../../img/pc/main/con11_o.png") no-repeat;}
+#content03 .c03 .c03_03 {width:362px;height:294px;background:url("../../img/pc/main/con12.png") no-repeat;float:left;}
+#content03 .c03 .c03_03:hover {background:url("../../img/pc/main/con12_o.png") no-repeat;}
 
 #content04 {width:100%; height:100%; overflow:hidden; margin-bottom:70px;}
 #content04 .c04 {width:1118px;margin:0 auto;}
@@ -99,17 +99,17 @@ li {list-style:none;}
 #content04 .c04 .c04_03 #c04_bt .c04_2:hover p {color:#5793ae;}
 #content04 .c04 .c04_03 #c04_bt .c04_3:hover p {color:#5793ae;}
 #content04 .c04 .c04_03 #c04_bt .c04_4:hover p {color:#5793ae;}
-#content04 .c04 .c04_01 {width:317px;height:362px;background:url("/images/con13.png") no-repeat;float:left;}
-#content04 .c04 .c04_02 {width:325px;height:362px;background:url("/images/con14.png") no-repeat;float:left;}
+#content04 .c04 .c04_01 {width:317px;height:362px;background:url("../../img/pc/main/con13.png") no-repeat;float:left;}
+#content04 .c04 .c04_02 {width:325px;height:362px;background:url("../../img/pc/main/con14.png") no-repeat;float:left;}
 #content04 .c04 .c04_03 {width:476px;height:362px;float:left;border:1px solid #c1c3ce;border-left:none;box-sizing:border-box;}
 #content04 .c04 .c04_03 #c04_bt {position:absolute;margin-top:10px;border-top:1px solid #cacbd4;}
 #content04 .c04 .c04_03 #c04_bt ul {width:476px;margin-top:10px;}
 #content04 .c04 .c04_03 #c04_bt ul li {width:80px;height:100px;float:left;margin-left: 30px;text-align:center;}
 #content04 .c04 .c04_03 #c04_bt ul li p {margin-top:80px;font-weight:bold;}
-#content04 .c04 .c04_03 #c04_bt .c04_1 {background:url("/images/c04_03_1.png") no-repeat;}
-#content04 .c04 .c04_03 #c04_bt .c04_2 {background:url("/images/c04_03_2.png") no-repeat;}
-#content04 .c04 .c04_03 #c04_bt .c04_3 {background:url("/images/c04_03_3.png") no-repeat;}
-#content04 .c04 .c04_03 #c04_bt .c04_4 {background:url("/images/c04_03_4.png") no-repeat;}
+#content04 .c04 .c04_03 #c04_bt .c04_1 {background:url("../../img/pc/main/c04_03_1.png") no-repeat;}
+#content04 .c04 .c04_03 #c04_bt .c04_2 {background:url("../../img/pc/main/c04_03_2.png") no-repeat;}
+#content04 .c04 .c04_03 #c04_bt .c04_3 {background:url("../../img/pc/main/c04_03_3.png") no-repeat;}
+#content04 .c04 .c04_03 #c04_bt .c04_4 {background:url("../../img/pc/main/c04_03_4.png") no-repeat;}
 #content04 .c04 .c04_03 .main_press {padding:0 20px;}
 #content04 .c04 .c04_03 .main_press li {position:relative;margin:20px 0; }
 #content04 .c04 .c04_03 .main_press li .date {position:absolute;right:0;}
@@ -138,7 +138,7 @@ li {list-style:none;}
 
 
 /* SUB */
-#sub_visual {width:100%; height:221px; margin:0 auto;background:url("/images/sub_bg.png");}
+#sub_visual {width:100%; height:221px; margin:0 auto;background:url("../../img/pc/main/sub_bg.png");}
 #l_nav {width:212px;float:left;border:1px solid #efefef;overflow:hidden;float:left;}
 #l_nav .l_n_title {width:100%;height:78px;background:#474747;color:#fff;text-indent:20px;line-height:70px;font-size:25px;}
 #l_nav .l_n_top {width:212px;overflow:hidden;}

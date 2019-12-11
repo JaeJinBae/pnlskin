@@ -1,0 +1,43 @@
+@charset "utf-8";
+
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td, abbr, acronym, address, big, cite, code, ins, small, sub, sup
+{ font:100% "돋움", "Dotum"; padding:0; margin:0; }
+
+div img, dl img, dt img, dd img, ul img, ol img, li img, h1 img, h2 img, h3 img, h4 img, h5 img, h6 img, pre img, form img, fieldset img, input img, textarea img, p img, blockquote img, th img, td img{ font-size:0; line-height:0; }
+
+table{ border-collapse:collapse; border-spacing:0; }
+
+ol, ul, li{ list-style:none; }
+
+h1, h2, h3, h4, h5, h6, th, td{ font-weight:normal; font-size:100%; }
+
+form, fieldset, a img{ border:0; }
+
+q:before,q:after { content:''; }
+
+abbr,acronym { border:0; }
+
+address, abbr, address, big, cite, code, ins, small, sub, sup, em{ font-weight:normal; font-style:normal; }
+
+blockquote, q{ quotes:none; }
+
+.accessibility, .skip, legend, hr
+{ position:absolute !important; width:0 !important; height:0 !important; font-size:0 !important; line-height:0 !important; overflow:hidden !important; visibility:hidden !important; }
+caption{ display:none; }
+
+.null{ font-size:0; line-height:0; }
+
+a img, input, textarea, select, img{ vertical-align:middle; }
+
+select{ font-size:11px; border:1px solid #D0D0D0; background:#fff; }
+
+input{ font:100% "돋움", "Dutum", "Arial"; color:#71686b; vertical-align:middle; }
+
+a:link, a:visited{ color:#646464; line-height:normal; text-decoration:none; }
+a:hover, a:active, a:focus{ color:#ef3c74; }
+
+
+body {width:640px;margin:0 auto;position:relative;}
+
+a,area {blr:expression(this.onFocus=this.blur())}
+:focus { -moz-outline-style:none;}
