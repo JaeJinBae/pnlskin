@@ -86,7 +86,7 @@ $(document).ready(function() {
 		direct : function(arg){//direct
 			location.href=arg;
 		}
-	 });
+	});
 });
 </script>
 <script>
@@ -142,21 +142,21 @@ $(document).ready(function() {
 					<td colspan="2" height="15"></td>
 	   			</tr>
 				<tr>
-					<td align="left"><img src="${pageContext.request.contextPath}/resources/img/pc/content/title01_01.gif" border="0"></td>
-					<td align="right" class="HOME"><img src="${pageContext.request.contextPath}/resources/img/pc/content/home.gif" align="absmiddle"> &gt; 박앤리 &gt; <span class="home_1">인사말</span></td>
+					<td align="left"><img src="${pageContext.request.contextPath}/resources/img/pc/content/title01_04.gif" border="0"></td>
+					<td align="right" class="HOME"><img src="${pageContext.request.contextPath}/resources/img/pc/content/home.gif" align="absmiddle"> &gt; 박앤리 &gt; <span class="home_1">보유장비소개</span></td>
 				</tr>
     		  	<tr>
     				<td colspan="2" height="25"></td>
     			</tr>
 				<tr>
-					<td colspan="2"><img src="${pageContext.request.contextPath}/resources/img/pc/content/con0101.jpg"></td>
+					<td colspan="2"><img src="${pageContext.request.contextPath}/resources/img/pc/content/con0104.jpg"></td>
 				</tr>
     		</table>
 			<!-- contents -->
 			<br><br><br><br><br>
 			<br><br><br><br><br>
 			<script>
-				var sb = "01";
+				var sb = "05";
 				
 				if(sb) {
 					$("#sb_"+sb).css({'background':'#48c6ff'});

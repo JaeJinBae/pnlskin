@@ -86,7 +86,9 @@ $(document).ready(function() {
 		direct : function(arg){//direct
 			location.href=arg;
 		}
-	 });
+	});
+	
+	
 });
 </script>
 <script>
@@ -142,21 +144,80 @@ $(document).ready(function() {
 					<td colspan="2" height="15"></td>
 	   			</tr>
 				<tr>
-					<td align="left"><img src="${pageContext.request.contextPath}/resources/img/pc/content/title01_01.gif" border="0"></td>
-					<td align="right" class="HOME"><img src="${pageContext.request.contextPath}/resources/img/pc/content/home.gif" align="absmiddle"> &gt; 박앤리 &gt; <span class="home_1">인사말</span></td>
+					<td align="left"><img src="${pageContext.request.contextPath}/resources/img/pc/content/title01_03.gif" border="0"></td>
+					<td align="right" class="HOME"><img src="${pageContext.request.contextPath}/resources/img/pc/content/home.gif" align="absmiddle"> &gt; 박앤리 &gt; <span class="home_1">병원둘러보기</span></td>
 				</tr>
     		  	<tr>
     				<td colspan="2" height="25"></td>
     			</tr>
 				<tr>
-					<td colspan="2"><img src="${pageContext.request.contextPath}/resources/img/pc/content/con0101.jpg"></td>
-				</tr>
+			        <td colspan="2">
+						<div class="visual" style="margin-top:30px;">
+							<ul class="bxslider" id="bxslider02">
+								<li id="visual01">
+									<img src="${pageContext.request.contextPath}/resources/img/pc/content/sub1_3_1.jpg" alt="">
+								</li>
+								<li id="visual02">
+									<img src="${pageContext.request.contextPath}/resources/img/pc/content/sub1_3_2.jpg" alt="">
+								</li>
+								<li id="visual03">
+									<img src="${pageContext.request.contextPath}/resources/img/pc/content/sub1_3_3.jpg" alt="">
+								</li>
+								<li id="visual04">
+									<img src="${pageContext.request.contextPath}/resources/img/pc/content/sub1_3_4.jpg" alt="">
+								</li>
+								<li id="visual05">
+									<img src="${pageContext.request.contextPath}/resources/img/pc/content/sub1_3_5.jpg" alt="">
+								</li>
+								<li id="visual06">
+									<img src="${pageContext.request.contextPath}/resources/img/pc/content/sub1_3_6.jpg" alt="">
+								</li>
+								<li id="visual07">
+									<img src="${pageContext.request.contextPath}/resources/img/pc/content/sub1_3_7.jpg" alt="">
+								</li>
+								<li id="visual08">
+									<img src="${pageContext.request.contextPath}/resources/img/pc/content/sub1_3_8.jpg" alt="">
+								</li>
+								<li id="visual09">
+									<img src="${pageContext.request.contextPath}/resources/img/pc/content/sub1_3_9.jpg" alt="">
+								</li>
+								<li id="visual10">
+									<img src="${pageContext.request.contextPath}/resources/img/pc/content/sub1_3_10.jpg" alt="">
+								</li>
+								<li id="visual11">
+									<img src="${pageContext.request.contextPath}/resources/img/pc/content/sub1_3_11.jpg" alt="">
+								</li>
+								<li id="visual12">
+									<img src="${pageContext.request.contextPath}/resources/img/pc/content/sub1_3_12.jpg" alt="">
+								</li>
+								<li id="visual13">
+									<img src="${pageContext.request.contextPath}/resources/img/pc/content/sub1_3_13.jpg" alt="">
+								</li>
+								<li id="visual14">
+									<img src="${pageContext.request.contextPath}/resources/img/pc/content/sub1_3_14.jpg" alt="">
+								</li>
+								<li id="visual15">
+									<img src="${pageContext.request.contextPath}/resources/img/pc/content/sub1_3_15.jpg" alt="">
+								</li>
+								<li id="visual16">
+									<img src="${pageContext.request.contextPath}/resources/img/pc/content/sub1_3_16.jpg" alt="">
+								</li>
+								<li id="visual17">
+									<img src="${pageContext.request.contextPath}/resources/img/pc/content/sub1_3_17.jpg" alt="">
+								</li>
+								<li id="visual18">
+									<img src="${pageContext.request.contextPath}/resources/img/pc/content/sub1_3_18.jpg" alt="">
+								</li>
+							</ul>
+						</div>
+					</td>
+			      </tr>
     		</table>
 			<!-- contents -->
 			<br><br><br><br><br>
 			<br><br><br><br><br>
 			<script>
-				var sb = "01";
+				var sb = "03";
 				
 				if(sb) {
 					$("#sb_"+sb).css({'background':'#48c6ff'});

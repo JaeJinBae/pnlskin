@@ -148,9 +148,9 @@ function autoTab(input,len, e) {
 	<div id="qmenu">
 		<div id="gray"></div>
 		<ul>
-			<li><a href="http://pnlskin.com/work/sub01/sub01.php?sb=05"><img src="${pageContext.request.contextPath}/resources/img/pc/common/q_01.png" alt="" onmouseover="this.src='${pageContext.request.contextPath}/resources/img/pc/common/q_01_o.png'" onmouseout="this.src='${pageContext.request.contextPath}/resources/img/pc/common/q_01.png'"></a></li>
-			<li><a href="http://pnlskin.com/work/sub01/sub01.php?sb=08"><img src="${pageContext.request.contextPath}/resources/img/pc/common/q_02.png" alt="" onmouseover="this.src='${pageContext.request.contextPath}/resources/img/pc/common/q_02_o.png'" onmouseout="this.src='${pageContext.request.contextPath}/resources/img/pc/common/q_02.png'"></a></li>
-			<li><a href="http://pnlskin.com/work/sub14/sub14.php?sb=041&amp;bbs=counsel&amp;pg=list"><img src="${pageContext.request.contextPath}/resources/img/pc/common/q_03.png" alt="" onmouseover="this.src='${pageContext.request.contextPath}/resources/img/pc/common/q_03_o.png'" onmouseout="this.src='${pageContext.request.contextPath}/resources/img/pc/common/q_03.png'"></a></li>
+			<li><a href="${pageContext.request.contextPath}/menu01_06"><img src="${pageContext.request.contextPath}/resources/img/pc/common/q_01.png" alt="" onmouseover="this.src='${pageContext.request.contextPath}/resources/img/pc/common/q_01_o.png'" onmouseout="this.src='${pageContext.request.contextPath}/resources/img/pc/common/q_01.png'"></a></li>
+			<li><a href="${pageContext.request.contextPath}/menu01_05"><img src="${pageContext.request.contextPath}/resources/img/pc/common/q_02.png" alt="" onmouseover="this.src='${pageContext.request.contextPath}/resources/img/pc/common/q_02_o.png'" onmouseout="this.src='${pageContext.request.contextPath}/resources/img/pc/common/q_02.png'"></a></li>
+			<li><a href="${pageContext.request.contextPath}/menu14_04"><img src="${pageContext.request.contextPath}/resources/img/pc/common/q_03.png" alt="" onmouseover="this.src='${pageContext.request.contextPath}/resources/img/pc/common/q_03_o.png'" onmouseout="this.src='${pageContext.request.contextPath}/resources/img/pc/common/q_03.png'"></a></li>
 			<li><img src="${pageContext.request.contextPath}/resources/img/pc/common/q_04.png" alt=""></li>
 			<li><a href="http://blog.naver.com/pnl_skin" target="_blank"><img src="${pageContext.request.contextPath}/resources/img/pc/common/q_05.png" alt=""></a></li>
 			<li><a href="#"><img src="${pageContext.request.contextPath}/resources/img/pc/common/q_06.png" alt=""></a></li>
@@ -261,9 +261,9 @@ wcs_do(_nasa);
 			<div id="ft_wrap">
 				<div class="fl" id="logo"><a href=""><img src="${pageContext.request.contextPath}/resources/img/pc/main/f_logo.png" alt=""></a></div>
 				<p class="ft01">
-					<a href="http://www.pnlskin.com/work/sub15/sub15.php?sb=02&amp;bbs=members&amp;pg=contract">이용약관</a> &nbsp;|&nbsp;
-					<a href="http://www.pnlskin.com/work/sub15/sub15.php?sb=02&amp;bbs=members&amp;pg=contract">개인정보취급방침</a> &nbsp;|&nbsp;
-					<a href="http://www.pnlskin.com/work/_inc/mail_refusal.php" target="_blank">이메일주소 무단수집거부</a>
+					<a href="${pageContext.request.contextPath}/">이용약관</a> &nbsp;|&nbsp;
+					<a href="${pageContext.request.contextPath}/">개인정보취급방침</a> &nbsp;|&nbsp;
+					<a href="${pageContext.request.contextPath}/" target="_blank">이메일주소 무단수집거부</a>
 				</p>
 				<p class="ft02">주소 : 대구광역시 달서구 상인동 1512번지 상인프라자 5층 &nbsp;|&nbsp; 대표자 : 박재경 &nbsp;|&nbsp; 사업자등록번호 : 514-25-52029 &nbsp;|&nbsp; 고객센터 : 053-644-7755&nbsp;&nbsp;
 					<a href="http://blog.naver.com/pnl_skin" target="_blank"><img src="${pageContext.request.contextPath}/resources/img/pc/main/blog.png" alt=""></a></p>
