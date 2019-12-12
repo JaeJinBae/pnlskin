@@ -5,7 +5,10 @@
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 		
   
-
+<map name="foot" id="foot">
+	<area shape="rect" coords="45,23,364,103" href="${pageContext.request.contextPath}/menu14_04">
+	<area shape="rect" coords="366,21,688,104" href="${pageContext.request.contextPath}/menu01_06">
+</map>
 
 
   
