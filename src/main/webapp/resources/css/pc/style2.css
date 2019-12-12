@@ -161,7 +161,7 @@ li {list-style:none;}
 
 /* table tbody tr:nth-of-type(2) td:nth-of-type(1) {width:324px;} */
 .HOME img {vertical-align:-2px;}
-.HOME {font-size:11px;font-family:dotum; letter-spacing:0;}
+.HOME {font-size:11px;font-family:dotum; letter-spacing:0;width:350px;}
 .home_1 {color:#62abcc;}
 
 .essential {font-size:17px;}

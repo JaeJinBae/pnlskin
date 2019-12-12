@@ -152,7 +152,7 @@ $(document).ready(function() {
 					<td colspan="2" height="15"></td>
 	   			</tr>
 				<tr>
-					<td align="left"><img src="${pageContext.request.contextPath}/resources/img/pc/content/title03_13.gif" border="0"></td>
+					<td align="left" style="width: 50%;"><img src="${pageContext.request.contextPath}/resources/img/pc/content/title03_13.gif" border="0"></td>
 					<td align="right" class="HOME"><img src="${pageContext.request.contextPath}/resources/img/pc/content/home.gif" align="absmiddle"> &gt; 탄력ㆍ리프팅 &gt; <span class="home_1">하이드로 리프트</span></td>
 				</tr>
     		  	<tr>

@@ -144,7 +144,7 @@ $(document).ready(function() {
 					<td colspan="2" height="15"></td>
 	   			</tr>
 				<tr>
-					<td align="left"><b style="font-size:28px">이노젝터</b></td>
+					<td align="left" style="width: 50%;"><b style="font-size:28px">이노젝터</b></td>
 					<td align="right" class="HOME"><img src="${pageContext.request.contextPath}/resources/img/pc/content/home.gif" align="absmiddle"> &gt; HOT 클리닉 &gt; <span class="home_1">이노젝터</span></td>
 				</tr>
     		  	<tr>

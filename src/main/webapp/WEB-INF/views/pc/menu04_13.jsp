@@ -122,26 +122,27 @@ $(document).ready(function() {
 			});});
 		</script>
 		<div id="l_nav" style="float:left;">
-			<div class="l_n_title">탄력ㆍ리프팅</div>
+			<div class="l_n_title">기미ㆍ잡티</div>
 			<ul class="l_n_top">
-				<li id="sb_01"><a href="${pageContext.request.contextPath}/menu03_01">울쎄라</a></li>
-				<li id="sb_02"><a href="${pageContext.request.contextPath}/menu03_02">뉴써마지더블로S</a></li>
-				<li id="sb_03"><a href="${pageContext.request.contextPath}/menu03_03">더블로</a></li>
-				<li id="sb_04"><a href="${pageContext.request.contextPath}/menu03_04">디아지</a></li>
-				<li id="sb_05"><a href="${pageContext.request.contextPath}/menu03_05">마스터스</a></li>
-				<li id="sb_06"><a href="${pageContext.request.contextPath}/menu03_06">제네시스</a></li>
-				<li id="sb_07"><a href="${pageContext.request.contextPath}/menu03_07">프락셀듀얼</a></li>
-				<li id="sb_08"><a href="${pageContext.request.contextPath}/menu03_08">모자이크</a></li>
-				<li id="sb_09"><a href="${pageContext.request.contextPath}/menu03_09">eco2</a></li>
-				<li id="sb_10"><a href="${pageContext.request.contextPath}/menu03_10">보톡스ㆍ필러</a></li>
-				<li id="sb_11"><a href="${pageContext.request.contextPath}/menu03_11">스컬트라 엘란쎄</a></li>
-				<li id="sb_12"><a href="${pageContext.request.contextPath}/menu03_12">진피내주름주사</a></li>
-				<li id="sb_13"><a href="${pageContext.request.contextPath}/menu03_13">리쥬란힐러</a></li>
-				<li id="sb_14"><a href="${pageContext.request.contextPath}/menu03_14">샤넬동안주사</a></li>
-				<li id="sb_15"><a href="${pageContext.request.contextPath}/menu03_15">더마샤인</a></li>
-				<li id="sb_16"><a href="${pageContext.request.contextPath}/menu03_16">하이드로리프팅</a></li>
-				<li id="sb_17"><a href="${pageContext.request.contextPath}/menu03_17">해피리프팅 울트라V리프팅</a></li>
-				<li id="sb_18"><a href="${pageContext.request.contextPath}/menu03_18">LDM RF고주파</a></li> <!-- 추가 페이지 -->
+				<li id="sb_01"><a href="${pageContext.request.contextPath}/menu04_01">기미</a></li>
+				<li id="sb_02"><a href="${pageContext.request.contextPath}/menu04_02">잡티 색소</a></li>
+				<li id="sb_03"><a href="${pageContext.request.contextPath}/menu04_03">주근깨</a></li>
+				<li id="sb_04"><a href="${pageContext.request.contextPath}/menu04_04">검버섯</a></li>
+				<li id="sb_05"><a href="${pageContext.request.contextPath}/menu04_05">오타모반</a></li>
+				<li id="sb_06"><a href="${pageContext.request.contextPath}/menu04_06">점</a></li>
+				<li id="sb_07"><a href="${pageContext.request.contextPath}/menu04_07">엑셀브이레이저</a></li>
+				<li id="sb_08"><a href="${pageContext.request.contextPath}/menu04_08">피코</a></li> <!-- 추가 페이지 -->
+				<li id="sb_09"><a href="${pageContext.request.contextPath}/menu04_09">제네시스</a></li>
+				<li id="sb_10"><a href="${pageContext.request.contextPath}/menu04_10">스펙트라</a></li>
+				<li id="sb_11"><a href="${pageContext.request.contextPath}/menu04_11">모자이크</a></li>
+				<li id="sb_12"><a href="${pageContext.request.contextPath}/menu04_12">프락셀듀얼</a></li>
+				<li id="sb_13"><a href="${pageContext.request.contextPath}/menu04_13">마스터스</a></li>
+				<li id="sb_14"><a href="${pageContext.request.contextPath}/menu04_14">디아지</a></li>
+				<li id="sb_15"><a href="${pageContext.request.contextPath}/menu04_15">Co2</a></li>
+				<li id="sb_16"><a href="${pageContext.request.contextPath}/menu04_16">헬리오스 III</a></li>
+				<li id="sb_17"><a href="${pageContext.request.contextPath}/menu04_17">eco2</a></li>
+				<li id="sb_18"><a href="${pageContext.request.contextPath}/menu04_18">IPL</a></li>
+				<li id="sb_19"><a href="${pageContext.request.contextPath}/menu04_19">밀크필</a></li>
 				<li class="cbox"></li>
 			</ul>
 			<jsp:include page="include/left_nav.jsp"></jsp:include>
@@ -152,27 +153,24 @@ $(document).ready(function() {
 					<td colspan="2" height="15"></td>
 	   			</tr>
 				<tr>
-					<td align="left" style="width: 50%;"><img src="${pageContext.request.contextPath}/resources/img/pc/content/title03_10.gif" border="0"></td>
-					<td align="right" class="HOME"><img src="${pageContext.request.contextPath}/resources/img/pc/content/home.gif" align="absmiddle"> &gt; 탄력ㆍ리프팅 &gt; <span class="home_1">보톡스, 필러</span></td>
+					<td align="left" style="width: 50%;"><img src="${pageContext.request.contextPath}/resources/img/pc/content/title03_05.gif" border="0"></td>
+					<td align="right" class="HOME"><img src="${pageContext.request.contextPath}/resources/img/pc/content/home.gif" align="absmiddle"> &gt; 기미ㆍ잡티 &gt; <span class="home_1">마스터스</span></td>
 				</tr>
     		  	<tr>
     				<td colspan="2" height="25"></td>
     			</tr>
-				<tr>
-					<td colspan="2"><img src="${pageContext.request.contextPath}/resources/img/pc/content/con1001.jpg"></td>
-				</tr>
-				<tr>
-					<td colspan="2"><img src="${pageContext.request.contextPath}/resources/img/pc/content/con1002.jpg"></td>
+    			<tr>
+					<td colspan="2"><img src="${pageContext.request.contextPath}/resources/img/pc/content/con0305.jpg"></td>
 				</tr>
 				<tr>
 					<td colspan="2"><img src="${pageContext.request.contextPath}/resources/img/pc/common/btn_con.jpg" usemap="#foot" border="0"></td>
 				</tr>
-    		</table>
+    		</table> 
 			<!-- contents -->
 			<br><br><br><br><br>
 			<br><br><br><br><br>
 			<script>
-				var sb = "10";
+				var sb = "13";
 				
 				if(sb) {
 					$("#sb_"+sb).css({'background':'#48c6ff'});

@@ -144,7 +144,7 @@ $(document).ready(function() {
 					<td colspan="2" height="15"></td>
 	   			</tr>
 				<tr>
-					<td align="left"><img src="${pageContext.request.contextPath}/resources/img/pc/content/title05_01.gif" border="0"></td>
+					<td align="left" style="width: 50%;"><img src="${pageContext.request.contextPath}/resources/img/pc/content/title05_01.gif" border="0"></td>
 					<td align="right" class="HOME"><img src="${pageContext.request.contextPath}/resources/img/pc/content/home.gif" align="absmiddle"> &gt; HOT 클리닉 &gt; <span class="home_1">여드름</span></td>
 				</tr>
     		  	<tr>
