@@ -1,0 +1,61 @@
+/**
+ * dashBoard css
+ * .column 가로사이즈 설정
+ * .portlet-content 세로 사이즈 설정 
+ * .ui-sortable-placeholder 드레그시 포탈 될 점선 세로 사이즈 설정, 포탈될 점선 색상, 굵기 설정
+ * .portlet-header Board 헤더 이미지 설정
+ * .portlet-header 테두리 border 설정
+ * .portlet-content 테두리 border 설정
+ */
+	
+	.column { 
+		 width: 350px; 
+		 float: left; 
+		 padding-bottom: 200px; 
+	}
+	.portlet { 
+		 margin: 0 1em 1em 0;
+	}
+	.portlet-header {
+		 padding-top: 7px;
+		 padding-bottom: 2px; 
+		 padding-left: 0.2em; cursor:move;
+	     height: 20px;
+	     background-image: url("js/plugin/dashboard/images/dash_bg.gif");
+		 border-right: #D7D7D7 1px solid; 
+		 border-top: #D7D7D7 1px solid; 
+		 border-left: #D7D7D7 1px solid; 
+		 border-bottom: #D7D7D7 1px solid;
+		 text-align: left;
+	}
+	.portlet-header .ui-icon { 
+		 float: right;
+	}
+	.portlet-content { 
+		 height:200px; 
+		 padding: 0.4em; 
+
+		 border-right: #D7D7D7 1px solid; 
+		 border-top: #D7D7D7 0px solid; 
+		 border-left: #D7D7D7 1px solid; 
+		 border-bottom: #D7D7D7 1px solid;
+		 padding: 0px 0px 0px 0px;
+		 background-color: #ffffff;
+		 
+	}
+	.ui-sortable-placeholder { 
+		 border: 2px dotted #F7714A; 
+		 visibility: visible !important; 
+		 height: 230px !important; 
+	}
+	.ui-sortable-placeholder * { 
+		 visibility: hidden; 
+	}
+	/*#debug {
+		 width:300px; 
+		 height:200px; 
+		 border:solid 1px; 
+		 position:absolute; 
+		 top:600px;
+	} **/
+	/* dashboard end **/

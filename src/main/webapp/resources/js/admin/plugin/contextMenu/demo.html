@@ -1,0 +1,185 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.contextmenu.js"></script>
+<link rel="stylesheet" type="text/css" href="jquery.contextmenu.css" media="all">
+
+<script type="text/javascript"> 
+/*$(function() {
+	$('.context-menu-example-trigger .context-menu-item').hover(function(){$.contextMenu.hoverItem.call(this,$.contextMenu.itemHoverClassName)},function(){$.contextMenu.hoverItemOut.call(this,$.contextMenu.itemHoverClassName)});
+});**/
+</script>
+
+</head>
+<body>
+
+
+
+
+
+
+<script>
+var count = 1;
+var menu = [
+	{ 'Show an alert': function() { alert('This is an alert!'); } },
+	{ 'Turn me red (try it)': function() { this.style.backgroundColor='red'; } },
+	{ '<b>HTML</b> <i>can be</i> <u>used in</u> <span style="background-color:white">options</span>': function() { } },
+	$.contextMenu.separator,
+	{ 'Just above me was a separator!':function(){} },
+	{ 'Option with icon (for themes that support it)':
+		{
+			onclick:function(){},
+			icon:'i_save.gif'
+		}
+	},
+	{'Disabled option':
+		{
+			onclick:function(){},
+			disabled:true
+		}
+	},
+	{'<div><div style="float:left;">Choose a color (don\'t close):</div><div class="swatch" style="background-color:red"></div><div class="swatch" style="background-color:green"></div><div class="swatch" style="background-color:blue"></div><div class="swatch" style="background-color:yellow"></div><div class="swatch" style="background-color:black"></div></div><br>':
+		function(menuItem,cmenu,e) {
+			$t = $(e.target);
+			if ($t.is('.swatch')) {
+				this.style.backgroundColor = $t.css('backgroundColor');
+				$t.parent().find('.swatch').removeClass('swatch-selected');
+				$t.addClass('swatch-selected');
+			}
+			return false;
+		}
+	},
+	{'Use fadeOut for hide transition':function(menuItem,cmenu) { cmenu.hideTransition='fadeOut'; cmenu.hideSpeed='fast'; } },
+	{'Use slideUp for hide transition (quirky in IE)':function(menuItem,cmenu) { cmenu.hideTransition='slideUp'; } },
+	{'Use normal hide transition':function(menuItem,cmenu) { cmenu.hideTransition='hide'; } },
+	{'Increments each time menu is displayed using beforeShow hook: #<span class="option-count">1</span>': function() { } },
+	{'Custom menu item class and hover class for this item only':
+		{
+			onclick:function() { },
+			className:'context-menu-item-custom',
+			hoverClassName:'context-menu-item-custom-hover'
+		}
+	}
+];
+
+
+
+
+
+
+
+
+/* my test **/
+var my_contextmenu = [
+	{ 'Show an alert': function(menuItem, menuObject) { 
+	        alert(this.id); /* 자신의 id를 찾아온다. **/
+		} 
+	},
+	{ 'Turn me red (try it)': function() { this.style.backgroundColor='red'; } },
+	{ '<b>HTML</b> <i>can be</i> <u>used in</u> <span style="background-color:white">options</span>': function() { } },
+	$.contextMenu.separator,
+	{ 'Just above me was a separator!':function(){} },
+	{ 'Option with icon (for themes that support it)':
+		{
+			onclick:function(){},
+			icon:'i_save.gif'
+		}
+	},
+	{'Disabled option':
+		{
+			onclick:function(){},
+			disabled:true
+		}
+	}
+]; 
+/* my test **/
+
+
+var beforeShowFunc = function() {
+	var $menu = this.menu;
+	$menu.find('.option-count').html(count++);
+}
+$(function() {
+    
+    /* my test **/
+	$('.menu-test').contextMenu(my_contextmenu, {theme:'vista', beforeShow:beforeShowFunc});
+	/* my test **/
+
+	$('.menu-default').contextMenu(menu,{beforeShow:beforeShowFunc});
+    $('.menu-xp').contextMenu(menu,{theme:'xp',beforeShow:beforeShowFunc});
+    $('.menu-vista').contextMenu(menu,{theme:'vista',beforeShow:beforeShowFunc});
+    $('.menu-osx').contextMenu(menu,{theme:'osx',beforeShow:beforeShowFunc});
+    $('.menu-human').contextMenu(menu,{theme:'human',beforeShow:beforeShowFunc});
+    $('.menu-gloss').contextMenu(menu,{theme:'gloss',beforeShow:beforeShowFunc});
+    $('.menu-gloss-cyan').contextMenu(menu,{theme:'gloss,gloss-cyan',beforeShow:beforeShowFunc});
+    $('.menu-gloss-semitransparent').contextMenu(menu,{theme:'gloss,gloss-semitransparent',beforeShow:beforeShowFunc});
+});
+</script>
+
+<!-- 컨텍스트 버튼 //-->
+<table width="350"><tr><td>
+
+
+<!-- my test //-->
+<div class="menu-test">
+	<div class="context-menu context-menu-theme-vista context-menu-example-trigger menu-test" id="088">
+
+	     context my test
+
+	</div>
+</div><br><br>
+<!-- my test //-->
+
+
+<div class="example-show">
+	<div class="context-menu context-menu-theme-default context-menu-example-trigger menu-default">
+		<div class="context-menu-item">
+			<div class="context-menu-item-inner">디폴트 테마: 오른쪽 마우스를 클릭</div>
+		</div>
+	</div>
+	<div class="context-menu context-menu-theme-xp context-menu-example-trigger menu-xp">
+		<div class="context-menu-item">
+			<div class="context-menu-item-inner">Windows XP Theme: 오른쪽 마우스를 클릭</div>
+		</div>
+	</div>
+	<div class="context-menu context-menu-theme-vista context-menu-example-trigger menu-vista">
+		<div class="context-menu-item">
+			<div class="context-menu-item-inner">Windows Vista Theme: 오른쪽 마우스를 클릭</div>
+		</div>
+	</div>
+	<div class="context-menu context-menu-theme-osx context-menu-example-trigger menu-osx">
+		<div class="context-menu-item">
+			<div class="context-menu-item-inner">OSX Theme: 오른쪽 마우스를 클릭</div>
+		</div>
+	</div>
+ 
+	<div class="context-menu context-menu-theme-human context-menu-example-trigger menu-human">
+		<div class="context-menu-item">
+			<div class="context-menu-item-inner">Linux Human Theme: 오른쪽 마우스를 클릭</div>
+		</div>
+	</div>
+	<div class="context-menu context-menu-theme-gloss context-menu-example-trigger menu-gloss">
+		<div class="context-menu-item">
+			<div class="context-menu-item-inner">Gloss Theme: 오른쪽 마우스를 클릭</div>
+		</div>
+	</div>
+	<div class="context-menu context-menu-theme-gloss context-menu-theme-gloss-cyan context-menu-example-trigger menu-gloss-cyan">
+		<div class="context-menu-item">
+			<div class="context-menu-item-inner">Gloss Theme (Cyan): 오른쪽 마우스를 클릭</div>
+		</div>
+	</div>
+	<div class="context-menu context-menu-theme-gloss context-menu-theme-gloss-semitransparent context-menu-example-trigger menu-gloss-semitransparent">
+		<div class="context-menu-item">
+			<div class="context-menu-item-inner">Gloss Theme (Semi-transparent): 오른쪽 마우스를 클릭</div>
+		</div>
+	</div>
+</div>
+
+
+</td></tr></table>
+<!-- 컨텍스트 버튼 //-->
+ 
+</body>
+</html>
