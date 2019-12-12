@@ -144,14 +144,14 @@ $(document).ready(function() {
 					<td colspan="2" height="15"></td>
 	   			</tr>
 				<tr>
-					<td align="left"><img src="${pageContext.request.contextPath}/resources/img/pc/content/title02_01.gif" border="0"></td>
-					<td align="right" class="HOME"><img src="${pageContext.request.contextPath}/resources/img/pc/content/home.gif" align="absmiddle"> &gt; HOT 클리닉 &gt; <span class="home_1">One-day 리프팅</span></td>
+					<td align="left"><img src="${pageContext.request.contextPath}/resources/img/pc/content/title02_07.gif" border="0"></td>
+					<td align="right" class="HOME"><img src="${pageContext.request.contextPath}/resources/img/pc/content/home.gif" align="absmiddle"> &gt; HOT 클리닉 &gt; <span class="home_1">Young Age 리프팅</span></td>
 				</tr>
     		  	<tr>
     				<td colspan="2" height="25"></td>
     			</tr>
 				<tr>
-					<td colspan="2"><img src="${pageContext.request.contextPath}/resources/img/pc/content/con0201.jpg"></td>
+					<td colspan="2"><img src="${pageContext.request.contextPath}/resources/img/pc/content/con0207.jpg"></td>
 				</tr>
 				<tr>
 					<td colspan="2"><img src="${pageContext.request.contextPath}/resources/img/pc/common/btn_con.jpg" usemap="#foot" border="0"></td>
@@ -161,7 +161,7 @@ $(document).ready(function() {
 			<br><br><br><br><br>
 			<br><br><br><br><br>
 			<script>
-				var sb = "01";
+				var sb = "02";
 				
 				if(sb) {
 					$("#sb_"+sb).css({'background':'#48c6ff'});
