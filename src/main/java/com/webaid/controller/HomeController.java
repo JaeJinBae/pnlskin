@@ -190,6 +190,13 @@ public class HomeController {
 		return "pc/menu02_12";
 	}
 
+	@RequestMapping(value = "/menu03_00", method = RequestMethod.GET)
+	public String menu03_00(Model model) {
+		logger.info("menu03_00 get");
+		
+		return "pc/menu03_00";
+	}
+	
 	@RequestMapping(value = "/menu03_01", method = RequestMethod.GET)
 	public String menu03_01(Model model) {
 		logger.info("menu03_01 get");

@@ -52,7 +52,7 @@
 					<li><a href="${pageContext.request.contextPath}/menu02_01">스컬트라</a></li>
 				</ul>
 			</li>
-			<li><a href="${pageContext.request.contextPath}/menu03_01">탄력ㆍ리프팅</a>
+			<li><a href="${pageContext.request.contextPath}/menu03_00">탄력ㆍ리프팅</a>
 				<ul>
 					<li><a href="${pageContext.request.contextPath}/menu03_01">울쎄라</a></li>
 					<li><a href="${pageContext.request.contextPath}/menu03_01">뉴써마지더블로S</a></li>
