@@ -36,10 +36,10 @@
 	<jsp:include page="include/header.jsp"></jsp:include>
 	<div class="m_visual">
 		<ul class="m_bxslider">
-			<li><img src="${pageContext.request.contextPath}/resources/img/m/main/bn_96" alt=""></li>
-			<li><img src="${pageContext.request.contextPath}/resources/img/m/main/bn_66" alt=""></li>
-			<li><img src="${pageContext.request.contextPath}/resources/img/m/main/bn_55" alt=""></li>
-			<li><img src="${pageContext.request.contextPath}/resources/img/m/main/bn_6" alt=""></li>
+			<li><img src="${pageContext.request.contextPath}/resources/img/m/main/bn_96.jpg" alt=""></li>
+			<li><img src="${pageContext.request.contextPath}/resources/img/m/main/bn_66.jpg" alt=""></li>
+			<li><img src="${pageContext.request.contextPath}/resources/img/m/main/bn_55.jpg" alt=""></li>
+			<li><img src="${pageContext.request.contextPath}/resources/img/m/main/bn_6.png" alt=""></li>
 		</ul>
 		<div id="m_bx-pager">
 			<div style="position:absolute;left:43%;">

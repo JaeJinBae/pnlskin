@@ -65,11 +65,11 @@
 	</div>
 	<div class="visual">
 		<ul class="bxslider" id="bxslider01">
-			<li><img src="${pageContext.request.contextPath}/resources/img/pc/main/bn_61.jpg" alt=""></li>
 			<li><img src="${pageContext.request.contextPath}/resources/img/pc/main/bn_95.jpg" alt=""></li>
 			<li><img src="${pageContext.request.contextPath}/resources/img/pc/main/bn_83.jpg" alt=""></li>
 			<li><img src="${pageContext.request.contextPath}/resources/img/pc/main/bn_65.jpg" alt=""></li>
-			<li><img src="${pageContext.request.contextPath}/resources/img/pc/main/bn_62.jpg" alt=""></li>
+			<li><img src="${pageContext.request.contextPath}/resources/img/pc/main/bn_62.png" alt=""></li>
+			<li><img src="${pageContext.request.contextPath}/resources/img/pc/main/bn_61.png" alt=""></li>
 						<!--
 			<li id="visual01"">
 				<img src="/images/v04.png" alt="" />
