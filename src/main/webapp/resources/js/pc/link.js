@@ -101,7 +101,7 @@ function sub05(a) {
 	else if(a == '06') {location.href = "/work/sub05/sub05.php?sb=06";}    //▶여드름 자국                
 	else if(a == '061') {location.href = "/work/sub05/sub05.php?sb=06#con0506_b1";}  //▷여드름자국의 원인          
 	else if(a == '062') {location.href = "/work/sub05/sub05.php?sb=06#con0506_b2";}  //▷여드름자국의 치료법        
-	else if(a == '07') {location.href = "/work/sub05/sub05.php?sb=07";}    //▶제나                       
+	else if(a == '07') {location.href = "/pnlskin/menu05_07";}    //▶제나                       /work/sub05/sub05.php?sb=07
 	else if(a == '08') {location.href = "/work/sub05/sub05.php?sb=08";}    //▶모자이크                   
 	else if(a == '09') {location.href = "/work/sub05/sub05.php?sb=09";}    //▶eco2                       
 	else if(a == '10') {location.href = "/work/sub05/sub05.php?sb=10";}    //▶PDT                        
