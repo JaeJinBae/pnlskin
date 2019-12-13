@@ -142,20 +142,14 @@ $(document).ready(function() {
 					<td colspan="2" height="15"></td>
 	   			</tr>
 				<tr>
-					<td align="left" style="width: 50%;"><img src="${pageContext.request.contextPath}/resources/img/pc/content/title08_01.gif" border="0"></td>
-					<td align="right" class="HOME"><img src="${pageContext.request.contextPath}/resources/img/pc/content/home.gif" align="absmiddle"> &gt; 안면홍조 &gt; <span class="home_1">안면홍조</span></td>
+					<td align="left" style="width: 50%;"><img src="${pageContext.request.contextPath}/resources/img/pc/content/title13_14.gif" border="0"></td>
+					<td align="right" class="HOME"><img src="${pageContext.request.contextPath}/resources/img/pc/content/home.gif" align="absmiddle"> &gt; 안면홍조 &gt; <span class="home_1">엑셀브이레이저 (EXCEL V)</span></td>
 				</tr>
     		  	<tr>
     				<td colspan="2" height="25"></td>
     			</tr>
 				<tr>
-					<td colspan="2"><img src="${pageContext.request.contextPath}/resources/img/pc/content/con0801.jpg"></td>
-				</tr>
-				<tr>
-					<td colspan="2"><a name="con0801_b1"></a><img src="${pageContext.request.contextPath}/resources/img/pc/content/con0801_b1.jpg"></td>
-				</tr>
-				<tr>
-					<td colspan="2"><a name="con0801_b2"></a><img src="${pageContext.request.contextPath}/resources/img/pc/content/con0801_b2.jpg"></td>
+					<td colspan="2"><img src="${pageContext.request.contextPath}/resources/img/pc/content/con1414.jpg"></td>
 				</tr>
 				<tr>
 					<td colspan="2"><img src="${pageContext.request.contextPath}/resources/img/pc/common/btn_con.jpg" usemap="#foot" border="0"></td>
@@ -165,7 +159,7 @@ $(document).ready(function() {
 			<br><br><br><br><br>
 			<br><br><br><br><br>
 			<script>
-				var sb = "01";
+				var sb = "03";
 				
 				if(sb) {
 					$("#sb_"+sb).css({'background':'#48c6ff'});
