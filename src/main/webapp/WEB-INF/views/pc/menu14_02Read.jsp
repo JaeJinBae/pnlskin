@@ -211,7 +211,7 @@ $(document).ready(function() {
 									</tr>
 									<tr class="data_read_cell togle_normal">
 										<td class="data_read_tit essential">후기내용</td>
-										<td class="data_read_fil" colspan="3" style="height:130px; vertical-align:top; padding-top:10px;"><img src="/_admin/easy-editor/tmp/201702231856408037.jpg" border="0" alt="letter_10.jpg"></td>
+										<td class="data_read_fil" colspan="3" style="height:130px; vertical-align:top; padding-top:10px;"><img src="${pageContext.request.contextPath}/resources/uploadReview/201702231856408037.jpg" border="0" alt="letter_10.jpg"></td>
 									</tr>
 								</table>
 								<div style="height:10px;"></div>
