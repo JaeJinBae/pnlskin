@@ -186,10 +186,12 @@ $(document).ready(function() {
 																			<td style="padding-left:0px; padding-top:10px;">
 																				<table width="80" height="80" cellspacing="0" cellpadding="0" border="0">
 																					<tr>
-																						<td><a href="javascript:show_dialog_iframe('comu_bnf', 700, 600, '전후사진 ', 'bnf_iframe', '/_admin/inc/inc.bnf.popup.php?idx=46')"><img src="/files/bnf/bnf_2013070517_C490L3.jpg" width="150" height="121" border="0"></a></td><td style="padding-left:10px;"><a href="javascript:show_dialog_iframe('comu_bnf', 700, 600, '전후사진 ', 'bnf_iframe', '/_admin/inc/inc.bnf.popup.php?idx=46')"><img src="/files/bnf/bnf_2013070517_2908Y4.jpg" width="150" height="120" border="0"></a></td>
+																						<td><a href="javascript:show_dialog_iframe('comu_bnf', 700, 600, '전후사진 ', 'bnf_iframe', '/_admin/inc/inc.bnf.popup.php?idx=46')"><img src="${pageContext.request.contextPath}/resources/uploadBeforeAfter/bnf_2013070517_C490L3.jpg" width="150" height="121" border="0"></a></td>
+																						<td style="padding-left:10px;"><a href="javascript:show_dialog_iframe('comu_bnf', 700, 600, '전후사진 ', 'bnf_iframe', '/_admin/inc/inc.bnf.popup.php?idx=46')"><img src="${pageContext.request.contextPath}/resources/uploadBeforeAfter/bnf_2013070517_2908Y4.jpg" width="150" height="120" border="0"></a></td>
 																					</tr>
 																					<tr height="30">
-																						<td align="center"><img src="/bbs/images/before.gif" border="0"></td><td align="center"><img src="/bbs/images/after.gif" border="0"></td>
+																						<td align="center"><img src="${pageContext.request.contextPath}/resources/img/pc/content/before.gif" border="0"></td>
+																						<td align="center"><img src="${pageContext.request.contextPath}/resources/img/pc/content/after.gif" border="0"></td>
 																					</tr>
 																				</table>
 																			</td>
@@ -228,10 +230,12 @@ $(document).ready(function() {
 																			<td style="padding-left:0px; padding-top:10px;">
 																				<table width="80" height="80" cellspacing="0" cellpadding="0" border="0">
 																					<tr>
-																						<td><a href="javascript:show_dialog_iframe('comu_bnf', 700, 600, '전후사진 ', 'bnf_iframe', '/_admin/inc/inc.bnf.popup.php?idx=44')"><img src="/files/bnf/bnf_2013070410_C0LSTU.jpg" width="150" height="149" border="0"></a></td><td style="padding-left:10px;"><a href="javascript:show_dialog_iframe('comu_bnf', 700, 600, '전후사진 ', 'bnf_iframe', '/_admin/inc/inc.bnf.popup.php?idx=44')"><img src="/files/bnf/bnf_2013070410_1L37YZ.jpg" width="150" height="149" border="0"></a></td>
+																						<td><a href="javascript:show_dialog_iframe('comu_bnf', 700, 600, '전후사진 ', 'bnf_iframe', '/_admin/inc/inc.bnf.popup.php?idx=44')"><img src="${pageContext.request.contextPath}/resources/uploadBeforeAfter/bnf_2013070410_C0LSTU.jpg" width="150" height="149" border="0"></a></td>
+																						<td style="padding-left:10px;"><a href="javascript:show_dialog_iframe('comu_bnf', 700, 600, '전후사진 ', 'bnf_iframe', '/_admin/inc/inc.bnf.popup.php?idx=44')"><img src="${pageContext.request.contextPath}/resources/uploadBeforeAfter/bnf_2013070410_1L37YZ.jpg" width="150" height="149" border="0"></a></td>
 																					</tr>
-																					<tr height="30"><td align="center"><img src="/bbs/images/before.gif" border="0"></td>
-																						<td align="center"><img src="/bbs/images/after.gif" border="0"></td>
+																					<tr height="30">
+																						<td align="center"><img src="${pageContext.request.contextPath}/resources/img/pc/content/before.gif" border="0"></td>
+																						<td align="center"><img src="${pageContext.request.contextPath}/resources/img/pc/content/after.gif" border="0"></td>
 																					</tr>
 																				</table>
 																			</td>
@@ -270,12 +274,12 @@ $(document).ready(function() {
 																			<td style="padding-left:0px; padding-top:10px;">
 																				<table width="80" height="80" cellspacing="0" cellpadding="0" border="0">
 																					<tr>
-																						<td><a href="javascript:show_dialog_iframe('comu_bnf', 700, 600, '전후사진 ', 'bnf_iframe', '/_admin/inc/inc.bnf.popup.php?idx=29')"><img src="/files/bnf/bnf_2013061918_B4E846.jpg" width="150" height="100" border="0"></a></td>
-																						<td style="padding-left:10px;"><a href="javascript:show_dialog_iframe('comu_bnf', 700, 600, '전후사진 ', 'bnf_iframe', '/_admin/inc/inc.bnf.popup.php?idx=29')"><img src="/files/bnf/bnf_2013061918_C81T34.jpg" width="150" height="100" border="0"></a></td>
+																						<td><a href="javascript:show_dialog_iframe('comu_bnf', 700, 600, '전후사진 ', 'bnf_iframe', '/_admin/inc/inc.bnf.popup.php?idx=29')"><img src="${pageContext.request.contextPath}/resources/uploadBeforeAfter/bnf_2013061918_B4E846.jpg" width="150" height="100" border="0"></a></td>
+																						<td style="padding-left:10px;"><a href="javascript:show_dialog_iframe('comu_bnf', 700, 600, '전후사진 ', 'bnf_iframe', '/_admin/inc/inc.bnf.popup.php?idx=29')"><img src="${pageContext.request.contextPath}/resources/uploadBeforeAfter/bnf_2013061918_C81T34.jpg" width="150" height="100" border="0"></a></td>
 																					</tr>
 																					<tr height="30">
-																						<td align="center"><img src="/bbs/images/before.gif" border="0"></td>
-																						<td align="center"><img src="/bbs/images/after.gif" border="0"></td>
+																						<td align="center"><img src="${pageContext.request.contextPath}/resources/img/pc/content/before.gif" border="0"></td>
+																						<td align="center"><img src="${pageContext.request.contextPath}/resources/img/pc/content/after.gif" border="0"></td>
 																					</tr>
 																				</table>
 																			</td>
@@ -308,8 +312,8 @@ $(document).ready(function() {
 													<div class="data-list-paging" style="margin:0px auto; text-align:center; width:100%; padding-top:15px;">
 														<table class="data-list-paging" border="0" align="center" cellspacing="0" cellpadding="0">
 															<tr>
-																<td><img src="/_admin/images/ico_prev02.gif" border="0" alt="맨처음"></td>
-																<td style="padding-left:3px;"><img src="/_admin/images/ico_prev01.gif" border="0" alt="이전10개"></td>
+																<td><img src="${pageContext.request.contextPath}/resources/img/pc/common/ico_prev02.gif" border="0" alt="맨처음"></td>
+																<td style="padding-left:3px;"><img src="${pageContext.request.contextPath}/resources/img/pc/common/ico_prev01.gif" border="0" alt="이전10개"></td>
 																<td style="width:10px;"></td>
 																<td>
 																	<table border="0" align="center" cellspacing="0" cellpadding="0">
@@ -345,9 +349,9 @@ $(document).ready(function() {
 																	</table>
 																</td>
 																<td style="width:10px;"></td>
-																<td><img src="/_admin/images/ico_next01.gif" border="0" alt="다음10개"></td>
+																<td><img src="${pageContext.request.contextPath}/resources/img/pc/common/ico_next01.gif" border="0" alt="다음10개"></td>
 																<td style="padding-left:3px;">
-																	<a href="?sb=01&amp;bbs=bnf&amp;search=&amp;keyword=&amp;category=&amp;pg=list&amp;thispage=3"><img src="/_admin/images/ico_next02.gif" border="0" alt="맨마지막"></a>
+																	<a href="?sb=01&amp;bbs=bnf&amp;search=&amp;keyword=&amp;category=&amp;pg=list&amp;thispage=3"><img src="${pageContext.request.contextPath}/resources/img/pc/common/ico_next02.gif" border="0" alt="맨마지막"></a>
 																</td>
 															</tr>
 														</table>
@@ -370,7 +374,7 @@ $(document).ready(function() {
 																<table border="0" cellpadding="0" cellspacing="0">
 																	<form name="searchForm" id="searchForm" method="post" action="?sb=01&amp;bbs=bnf&amp;pg=list"></form>
 																	<tr>
-																		<td style="width:35px;"><img src="/_admin/images/sear_txt01.gif" align="absmiddle"></td>
+																		<td style="width:35px;"><img src="${pageContext.request.contextPath}/resources/img/pc/common/sear_txt01.gif" align="absmiddle"></td>
 																		<td width="*">
 																			<div style="padding-top:10px;"></div>
 																			<table border="0" cellpadding="0" cellspacing="0">
@@ -403,7 +407,7 @@ $(document).ready(function() {
 																						<input name="keyword" type="text" value="" class="input" style="width:140px" id="textfield">
 																					</td>
 																					<td style="padding-left:3px; width:*;">
-																						<img src="/files/design_manager/2011113019V4.gif" border="0" style="cursor: pointer;" id="btn_search">
+																						<img src="${pageContext.request.contextPath}/resources/img/pc/common/2011113019V4.gif" border="0" style="cursor: pointer;" id="btn_search">
 																					</td>
 																				</tr>
 																			</table>
