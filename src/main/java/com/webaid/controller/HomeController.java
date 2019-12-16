@@ -1,7 +1,5 @@
 package com.webaid.controller;
 
-import java.util.Locale;
-
 import javax.servlet.http.HttpServletRequest;
 
 import org.slf4j.Logger;
@@ -1113,12 +1111,26 @@ public class HomeController {
 		
 		return "pc/menu14_01";
 	}
+	
+	@RequestMapping(value = "/menu14_01read", method = RequestMethod.GET)
+	public String menu14_01read(Model model) {
+		logger.info("menu14_01read get");
+		
+		return "pc/menu14_01Read";
+	}
 
 	@RequestMapping(value = "/menu14_02", method = RequestMethod.GET)
 	public String menu14_02(Model model) {
 		logger.info("menu14_02 get");
 		
 		return "pc/menu14_02";
+	}
+	
+	@RequestMapping(value = "/menu14_02read", method = RequestMethod.GET)
+	public String menu14_02read(Model model) {
+		logger.info("menu14_02read get");
+		
+		return "pc/menu14_02Read";
 	}
 
 	@RequestMapping(value = "/menu14_03", method = RequestMethod.GET)
@@ -1127,12 +1139,26 @@ public class HomeController {
 		
 		return "pc/menu14_03";
 	}
+	
+	@RequestMapping(value = "/menu14_03read", method = RequestMethod.GET)
+	public String menu14_03read(Model model) {
+		logger.info("menu14_03read get");
+		
+		return "pc/menu14_03Read";
+	}
 
 	@RequestMapping(value = "/menu14_04", method = RequestMethod.GET)
 	public String menu14_04(Model model) {
 		logger.info("menu14_04 get");
 		
 		return "pc/menu14_04";
+	}
+	
+	@RequestMapping(value = "/menu14_04read", method = RequestMethod.GET)
+	public String menu14_04read(Model model) {
+		logger.info("menu14_04read get");
+		
+		return "pc/menu14_04Read";
 	}
 
 	@RequestMapping(value = "/menu14_05", method = RequestMethod.GET)
@@ -1141,12 +1167,12 @@ public class HomeController {
 		
 		return "pc/menu14_05";
 	}
-
-	@RequestMapping(value = "/menu14_06", method = RequestMethod.GET)
-	public String menu14_61(Model model) {
-		logger.info("menu14_06 get");
+	
+	@RequestMapping(value = "/menu14_05read", method = RequestMethod.GET)
+	public String menu14_05read(Model model) {
+		logger.info("menu14_05read get");
 		
-		return "pc/menu14_06";
+		return "pc/menu14_05Read";
 	}
 	
 }
